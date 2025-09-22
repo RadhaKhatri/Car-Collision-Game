@@ -36,14 +36,6 @@ Survive as long as possible to get a high score!
 
 ---
 
-## 🎥 Demo
-
-*(Optional: Add a screenshot or gif of gameplay here)*  
-Example:  
-![Game Screenshot](./screenshot.png)
-
----
-
 ## 🚀 How to Run
 
 1. Clone this repository or download the files:
@@ -53,5 +45,43 @@ Example:
 2. Open index.html in your browser (or run with VSCode Live Server).
 
 3. Enjoy playing! 🎮
-📂 Project Structure
+   
+## 📂 Project Structure
+.
+├── index.html   # Main HTML file (HUD + script import)
+├── main.js      # Game logic with Three.js
+
+## 🎨 Color Scheme
+
+Road → Dark Gray (#333333)
+
+Grass → Forest Green (#228B22)
+
+Sky → Sky Blue (#87CEEB)
+
+Player Car → Red (stands out clearly)
+
+## 🧑‍💻 Tech Stack
+
+1. HTML5 – Page structure & HUD
+
+2. CSS3 – HUD styling (optional file)
+
+3. JavaScript (ES6) – Game logic
+
+4. Three.js – 3D rendering
+
+## 🕹 How to Play
+
+1. Arrow Left / Right: Move car between lanes.
+
+2. Arrow Up: Accelerate your car.
+
+3. Arrow Down: Brake / reduce speed.
+
+4. Avoid: Enemy cars and roadside objects.
+
+5. Objective: Survive as long as possible and get a high score.
+
+6. When your car collides with an enemy, game over is displayed and you can restart the game.
 
