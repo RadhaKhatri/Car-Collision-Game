@@ -49,6 +49,7 @@ Survive as long as possible to get a high score!
 ## 📂 Project Structure
 .
 ├── index.html   # Main HTML file (HUD + script import)
+
 ├── main.js      # Game logic with Three.js
 
 ## 🎨 Color Scheme
@@ -71,17 +72,4 @@ Player Car → Red (stands out clearly)
 
 4. Three.js – 3D rendering
 
-## 🕹 How to Play
-
-1. Arrow Left / Right: Move car between lanes.
-
-2. Arrow Up: Accelerate your car.
-
-3. Arrow Down: Brake / reduce speed.
-
-4. Avoid: Enemy cars and roadside objects.
-
-5. Objective: Survive as long as possible and get a high score.
-
-6. When your car collides with an enemy, game over is displayed and you can restart the game.
 
