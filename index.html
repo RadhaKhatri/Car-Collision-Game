@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Collision Game</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    #hud {
+      position: absolute; top: 10px; left: 10px; color: white;
+      font-family: Arial, sans-serif; font-size: 18px;
+    }
+    #gameOver {
+      position: absolute; top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      color: red; font-size: 30px; display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="hud">Score: <span id="score">0</span> | Speed: <span id="speed">0</span></div>
+  <div id="gameOver">GAME OVER<br><button onclick="location.reload()">Restart</button></div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
